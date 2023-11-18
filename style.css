@@ -178,5 +178,8 @@ form button:hover{
         font-size: 11px;
         margin-right: 18px;
        }
+        #faqs{
+            display:none;
+        }
     }
    
