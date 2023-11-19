@@ -3,26 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dread Image</title>
+    <title>Dread Images</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header id="head">
-        <div class="logo">
-          <img src="./r.png" alt="Not Found" width="90px"> 
-          <h2> Dread Image  </h2>
-        
-        </div>
-    <nav class="navbar">
-       
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#"  >Faqs</a></li>
-         
-        </ul>
-    </nav>
+    <header>
+        <div class="logo">Dread Images</div>
+        <input type="checkbox" id="nav_check" hidden>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li>
+                    <a href="#">About</a>
+                </li>
+                <li>
+                    <a href="#">Blog</a>
+                </li>
+                <li>
+                    <a href="#">Services</a>
+                </li>
+                <li>
+                    <a href="#">Faqs</a>
+                </li>
+            </ul>
+        </nav>
+        <label for="nav_check" class="pop-up">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
     </header>
     <form id="search">
         <input type="text"   id="image-search" placeholder="Search Anything Here....">
