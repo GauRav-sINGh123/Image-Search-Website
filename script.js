@@ -1,6 +1,6 @@
 const accessKey="EVIRohO8ywhVNfDaq3uKNbXQgFT2rSRmLZYbIrBvmN8";
-let searchForm=document.getElementById("search");
-let searchBox=document.getElementById("image-search");
+let searchForm=document.getElementById("form");
+let searchBox=document.getElementById("text-search");
 let searchResult=document.getElementById("search-result");
 let showMore=document.getElementById("show-more");
 
@@ -36,7 +36,11 @@ let page=1;
             
         })
         showMore.style.display="block";
+        }).catch((error)=>{
+            console.log("Error Call Is Not working",error)
         })
+           
+        
  }
     
 
