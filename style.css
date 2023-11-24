@@ -106,7 +106,7 @@ form button:active {
     transform: scale(0.99)
 }
 form button:hover{
-    background: #931621;
+    background: rgb(196, 40, 5);
 }
 ::placeholder{
     color: #120d0d;
@@ -148,10 +148,10 @@ form button:hover{
         justify-content: center;
         align-items: stretch;
     }
-    #search{
+    #form{
         height: 44px;
     }
-    #search input{
+    #text-search{
         font-size: 9px;
         padding: -2 0;
     }
@@ -161,9 +161,10 @@ form button:hover{
             padding: 0 13px;
           }
       #icon{
-        height: 28px;
+        height: 22px;
       }    
      }
+     
      @media only screen and (max-width: 900px) {
         header {
             padding: 0 30px;
