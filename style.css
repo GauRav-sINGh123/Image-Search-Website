@@ -106,7 +106,7 @@ form button:active {
     transform: scale(0.99)
 }
 form button:hover{
-    background: #4B2840;
+    background: #931621;
 }
 ::placeholder{
     color: #120d0d;
